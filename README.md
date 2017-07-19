@@ -9,7 +9,7 @@ The Ai randomly fills the board a specified number of times for strting with eac
 
 # How it performs
 
-This Ai is honestly incredibly difficult to beat. I am very good at this game it beats me roughly half the time.
+This Ai is honestly incredibly difficult to beat. I am very good at this game it beats me roughly a quarter of the time.
 
 # Instructions
 
