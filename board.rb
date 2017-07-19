@@ -68,4 +68,17 @@ class Board
   def reset
     initialize
   end
+
+  def display
+    puts " ------------------------------- "
+    [5,4,3,2,1,0].each do |row|
+      row = @grid.map do |col|
+        col[row] == nil ? ' ' : col[row].to_s
+      end.join(" | ")
+
+      puts " || #{row} ||"
+    end
+    puts " ------------------------------- "
+    puts " ---0---1---2---3---4---5---6--- "
+  end
 end
