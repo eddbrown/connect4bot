@@ -15,7 +15,7 @@ This Ai is honestly incredibly difficult to beat. I am very good at this game it
 
 ``` Terminal
   $ irb
-  $ require 'FILE_PATH/ai.rb'
+  $ require 'FILE_PATH/game.rb'
   $ game = Game.new
   $ game.start
 ```
