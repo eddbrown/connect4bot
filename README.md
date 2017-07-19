@@ -10,3 +10,13 @@ The Ai randomly fills the board a specified number of times for strting with eac
 # How it performs
 
 This Ai is honestly incredibly difficult to beat. I am very good at this game it beats me roughly half the time.
+
+# Instructions
+
+``` Terminal
+  $ irb
+  $ require 'FILE_PATH/ai.rb'
+  $ game = Game.new
+  $ game.start
+```
+Play against it by typing your column choice (0 through to 6)!
