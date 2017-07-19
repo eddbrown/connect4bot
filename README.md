@@ -9,7 +9,7 @@ The Ai randomly fills the board a specified number of times for strting with eac
 
 # How it performs
 
-This Ai is honestly surrisngly difficult to beat. I am very good at this game and it very often results in a draw.
+This Ai is honestly surprisngly difficult to beat. I am very good at this game and it very often results in a draw.
 
 # Instructions
 
