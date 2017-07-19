@@ -27,6 +27,9 @@ class Ai
       reset_test_board
       # place the ai piece in the chosen column and then fill up board
       test_board.place(column)
+      if test_board.status != :in_play
+        return 100000
+      end
       fill_board
 
       if ai_victory?
