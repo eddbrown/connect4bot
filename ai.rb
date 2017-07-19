@@ -4,7 +4,7 @@ class Ai
   attr_reader :piece_to_analyze, :piece_to_beat, :actual_board,
     :starting_size, :iteration
 
-  def initialize(actual_board: Board.new, piece_to_analyze: :x, iteration: 100)
+  def initialize(actual_board: Board.new, piece_to_analyze: :x, iteration: 200)
     @actual_board = actual_board
     @starting_size = actual_board.flatten.compact.size
     @test_board = Board.new

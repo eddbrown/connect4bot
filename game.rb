@@ -3,7 +3,6 @@ class Game
   def initialize(human_first_go: true)
      @human_first_go = human_first_go
      @board = Board.new()
-     @board.display
    end
 
    def start
