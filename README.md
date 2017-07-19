@@ -15,8 +15,6 @@ This Ai is honestly surprisngly difficult to beat. I am very good at this game a
 
 ``` Terminal
   $ irb
-  $ require 'FILE_PATH/game.rb'
-  $ game = Game.new
-  $ game.start
+  $ require 'FILE_PATH/play.rb'
 ```
 Play against it by typing your column choice (0 through to 6)!
