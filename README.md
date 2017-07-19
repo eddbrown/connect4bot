@@ -5,7 +5,11 @@ The AI takes a two dimensional array representing a connect4 board and returns a
 
 # The Method
 
-The Ai randomly fills the board a specified number of times for strting with each column and scores each column based on that result. It then compares that score with what the opponent would get for placing their piece in the same column on the next go.
+The AI uses Monte Carlo tree search to choose it next move. For each column, it places its piece in that column and then randomly fills the the board up until the game is over. It scores the column based on how often it won/drew/lost starting with that move.
+
+Initially it did not work very well at all, seemingly scoring each move similarly. However, the key insight was to then score the next players move in that column. So it basically plays itself. It thinks one move ahead and asks how much better off would this future opponent be if I go here. Then it simply scores the column by the difference in the scores!
+
+
 
 # How it performs
 
