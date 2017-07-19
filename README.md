@@ -19,6 +19,6 @@ This Ai is honestly surprisngly difficult to beat. I am very good at this game a
 
 ``` Terminal
   $ irb
-  $ require 'FILE_PATH/play.rb'
+  $ require '#{INSERT_THE_FILE_PATH}/play.rb'
 ```
-Play against it by typing your column choice (0 through to 6)!
+Play against it by typing your column choice (0 through to 6). You get the privilege of going first, it is a generous AI.
